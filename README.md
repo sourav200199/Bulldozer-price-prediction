@@ -19,3 +19,9 @@ The key fields are in train.csv are:
 * MachineID: the unique identifier of a machine. A machine can be sold multiple times
 * saleprice: what the machine sold for at auction (only provided in train.csv)
 * saledate: the date of the sale 
+
+## 3. Evaluation
+
+The evaluation metric for the model is **RMSLE (root mean squared log error)** between the actual and predicted auction prices.
+
+Check it on: https://www.kaggle.com/competitions/bluebook-for-bulldozers/overview/evaluation
